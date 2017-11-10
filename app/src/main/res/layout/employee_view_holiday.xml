@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/holidays_heading_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/ten_dp"
+        android:paddingTop="@dimen/five_dp"
+        android:text="@string/holiday"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/thirty_dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/emp_leave_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/holidays_heading_text_view"
+        android:layout_margin="@dimen/ten_dp"
+        android:background="@color/background_green" />
+
+    <Button
+        android:id="@+id/employee_view_holiday_sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/log_out"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_dp" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/add_employee_leave_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/twenty_dp"
+        android:background="@drawable/update_leaves"
+        android:padding="@dimen/ten_dp"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_dp" />
+
+    <Button
+        android:id="@+id/update_holidays_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/twenty_dp"
+        android:background="@drawable/update_leaves"
+        android:padding="@dimen/ten_dp"
+        android:text="@string/holidays"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_dp" />
+
+    <Button
+        android:id="@+id/view_employee_leave_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/twenty_dp"
+        android:background="@drawable/update_leaves"
+        android:padding="@dimen/ten_dp"
+        android:text="@string/view_employee_leaves"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/update_sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/twenty_dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/log_out"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

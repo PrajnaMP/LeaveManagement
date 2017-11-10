@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green"
+    android:gravity="center"
+    android:padding="@dimen/twenty_dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/employee_username_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="@string/username"
+            android:imeOptions="actionNext"
+            android:padding="@dimen/ten_dp"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/employee_password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:background="@android:color/white"
+            android:hint="@string/password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:padding="@dimen/ten_dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout">
+
+        <Button
+            android:id="@+id/employee_login_button"
+            android:layout_width="@dimen/three_hundred_dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/forty_dp"
+            android:background="@drawable/employee_login"
+            android:text="@string/login"
+            android:textColor="@color/login_color"
+            android:textSize="@dimen/twenty_dp" />
+
+        <TextView
+            android:id="@+id/login_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/forty_dp"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_toLeftOf="@+id/employee_login_button"
+            android:gravity="center"
+            android:paddingTop="@dimen/thirty_dp"
+            android:text="@string/_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/new_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout"
+        android:layout_marginTop="@dimen/sixty_dp"
+        android:background="@drawable/employee_login"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textColor="@color/login_color"
+        android:textSize="@dimen/twenty_dp" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

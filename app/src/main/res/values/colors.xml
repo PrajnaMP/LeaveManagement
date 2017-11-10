@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#b3b1ba</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#FF4FA9E9</color>
+    <color name="black">#000000</color>
+    <color name="view">#00000000</color>
+    <color name="green">#FF11E292</color>
+    <color name="text_color">#ffffff</color>
+    <color name="login_color">#45cfc9</color>
+    <color name="background_green">#45cfc9</color>
+    <color name="light_voi_let">#FF8A6DDC</color>
+    <color name="orange">#FFEF8235</color>
+    <color name="blu">#FF3592EF</color>
+    <color name="grid_background">#FFB7A7E4</color>
+    <color name="light_green">#FF9EEA0F</color>
+    <color name="yellow">#fadf23</color>
+    <color name="some_blue">#025f7c</color>
+    <color name="light_pink">#ff6699</color>
+    <color name="pista_color">#ccffcc</color>
+    <color name="light_blue">#6699ff</color>
+    <color name="light_color">#f0d1db</color>
+    <color name="light">#fcb0b3</color>
+    <color name="background_main">#dadae1</color>
+    <color name="main_background">#b2cce5</color>
+    <color name="cream">#ffedda</color>
+
+</resources>

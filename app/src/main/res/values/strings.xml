@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Leave Management</string>
+    <string name="leave_balance">Leave Balance</string>
+    <string name="apply">Apply leave</string>
+    <string name="view">Recently applied</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email Id</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Log In</string>
+    <string name="leave_type">Leave Type</string>
+    <string name="name">Name</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="days"> Days</string>
+    <string name="apply_to">Apply To</string>
+    <string name="reason">Reason</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="apply_leave">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="mobile">Mobile no.</string>
+    <string name="add_holiday">ADD</string>
+    <string name="date">Date</string>
+    <string name="day">Day</string>
+    <string name="set">Set</string>
+    <string name="Login_admin">ADMIN LOGIN</string>
+    <string name="Login_employee">EMPLOYEE LOGIN</string>
+    <string name="update">ADD EMPLOYEE LEAVES</string>
+    <string name="text">Register New Account</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="casual_leave">Casual Leave</string>
+    <string name="holiday">Holidays</string>
+    <string name="earn_leave">Earn Leave</string>
+    <string name="add">ADD</string>
+    <string name="upcoming_holidays">Holidays</string>
+    <string name="holidays">View Holidays</string>
+    <string name="full_name">Full Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="_text">Already has account! Login here</string>
+    <string name="update_">Update</string>
+    <string name="delete">Delete</string>
+    <string name="log_out">Log Out</string>
+    <string name="leave_details">Leave Details</string>
+    <string name="view_employee_leaves">View Employee Leaves</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

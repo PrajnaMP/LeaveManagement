@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/front_page"
+        android:orientation="vertical"
+        android:padding="@dimen/ten_dp">
+
+        <Button
+            android:id="@+id/admin_button"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen_dp"
+            android:background="@drawable/admin_button"
+            android:padding="@dimen/ten_dp"
+            android:text="@string/Login_admin" />
+
+        <Button
+            android:id="@+id/employee_button"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen_dp"
+            android:background="@drawable/emp_button"
+            android:padding="@dimen/ten_dp"
+            android:text="@string/Login_employee" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
